@@ -796,7 +796,7 @@ class ejercicios:
 ej = ejercicios()
 
 #Acá llamamos el metodo que deseemos, cada metodo son los ejercicios de cada vídeo.
-#ej.video_variables()
+ej.video_variables()
 #ej.video_tipodedatos()
 #ej.video_tablas()
 #ej.video_string()
@@ -805,7 +805,7 @@ ej = ejercicios()
 #ej.video_for()
 #ej.video_while()
 #ej.video_breakcontinue()
-ej.video10_3()
+#ej.video10_3()
 #ej.vide10_3_1()
 #ej.video10_4()
 #ej.video10_4_2()
