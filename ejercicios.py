@@ -406,7 +406,7 @@ class ejercicios:
     def video_breakcontinue(self):
         print("***** BREAK Y CONTINUE *****")
         cant=0
-        num = int(input("\n 1. Ingrese un número: "))
+        num = int(input("\n(Calcular cuantos numeros primos hay, con '0' se corta)\n1. Ingrese un número: "))
         while num!=0:
             primo=True
             for x in range(2,num):
@@ -417,7 +417,7 @@ class ejercicios:
                 cant+=1
             num=int(input("Ingrese un número: "))
         print("Numeros primos en total: ", cant)
-        año1 = int(input("\n2. Ingrese el año 1:"))
+        año1 = int(input("\n(Calcular dentro de un rango cantidad de años bisiestos y múltiplos de 10 hay)\n2. Ingrese el año 1:"))
         año2 = int(input("Ingrese el año 2:"))
         for x in range(año1,año2+1):
             if x%10==0:
@@ -796,7 +796,7 @@ class ejercicios:
 ej = ejercicios()
 
 #Acá llamamos el metodo que deseemos, cada metodo son los ejercicios de cada vídeo.
-ej.video_variables()
+#ej.video_variables()
 #ej.video_tipodedatos()
 #ej.video_tablas()
 #ej.video_string()
@@ -805,7 +805,7 @@ ej.video_variables()
 #ej.video_for()
 #ej.video_while()
 #ej.video_breakcontinue()
-#ej.video10_3()
+ej.video10_3()
 #ej.vide10_3_1()
 #ej.video10_4()
 #ej.video10_4_2()
